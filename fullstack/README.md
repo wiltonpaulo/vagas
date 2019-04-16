@@ -112,7 +112,8 @@ GET -> response no formato JSON
 
 ## O que posso usar?
 
-Você pode usar qualquer framework JS que quiser. Se preferir, pode fazer usando js Vanilla!
+- Você pode usar qualquer framework JS que quiser.
+- Para o lado do cliente, gostamos do Vue JS e React! Se preferir, pode fazer usando Vanilla JS :)
 
 ## O que apreciamos
 
