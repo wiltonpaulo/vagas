@@ -45,7 +45,7 @@ GET -> response no formato JSON
 
 **Exemplo de request**
 
-`https://viacep.com.br/ws/11040110/json/`
+`https://viacep.com.br/ws/04571010/json/`
 
 ## Layout inicial
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/frontend/layout_tela-inicial.png)
