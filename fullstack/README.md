@@ -76,7 +76,7 @@ GET -> response no formato JSON
 ### Server Side
 
 - Criar um serviço em NodeJS para consumir o endpoint de consulta de CEP
-- Parsear a resposta, trazendo somente os campos
+- Parsear a resposta, trazendo somente os campos:
 ```
 {
  cep: "04571-010",
