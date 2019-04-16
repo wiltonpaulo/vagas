@@ -42,30 +42,25 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 
 Criar um formulário responsivo simples para consulta de CEP em Ajax :)
 
+
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/fullstack/layout_final.gif)
 
 ## Instruções
 
-O formulário deve seguir o layout sugerido e conter um input e um botão de submit.
+### Server Side
 
-Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço de consulta de CEP via Ajax, e imprimir o resultado na tela.
+- Criar um serviço em NodeJS para consumir o endpoint de consulta de CEP
+- Parsear a resposta, trazendo somente os campos *cep, uf, localidade e logradouro.*
+- Se o CEP for inválido o serviço deve retornar o erro`401` para o client
 
-Os resultados a serem exibidos em tela são: cep, uf, localidade, logradouro.
+### Client Side
 
-resposta:
-```
-{
- cep: "04571-010",
- logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
- complemento: "até 1405 - lado ímpar",
- bairro: "Cidade Monções",
- localidade: "São Paulo",
- uf: "SP",
- unidade: "",
- ibge: "3550308",
- gia: "1004"
-}
-```
+- O formulário deve seguir o layout sugerido e conter um input e um botão de submit.
+
+- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço de consulta de CEP via Ajax, e imprimir o resultado na tela.
+
+- Os resultados a serem exibidos em tela são: cep, uf, localidade, logradouro.
+
 
 ## Validações
 
@@ -81,6 +76,23 @@ GET -> response no formato JSON
 **Exemplo de request**
 
 `https://viacep.com.br/ws/04571010/json/`
+
+**Resposta do endpoint**
+
+```
+{
+ cep: "04571-010",
+ logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
+ complemento: "até 1405 - lado ímpar",
+ bairro: "Cidade Monções",
+ localidade: "São Paulo",
+ uf: "SP",
+ unidade: "",
+ ibge: "3550308",
+ gia: "1004"
+}
+```
+
 
 ## Layout inicial
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/fullstack/layout_tela-inicial.png)
