@@ -57,7 +57,7 @@ Criar um formulário responsivo simples para consulta de CEP em Ajax :)
 
 - O formulário deve seguir o layout sugerido e conter um input e um botão de submit.
 
-- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço de consulta de CEP via Ajax, e imprimir o resultado na tela.
+- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço do NodeJS via *Ajax*, e imprimir o resultado na tela.
 
 - Os resultados a serem exibidos em tela são: cep, uf, localidade, logradouro.
 
