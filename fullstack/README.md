@@ -10,6 +10,12 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 - Git
 - NodeJS
 - APIs / REST
+- Cloud (AWS ou Google Cloud)
+- Ecmascript 6+
+- CDN
+- Linux
+- Banco de Dados
+- PHP
 - Suporte para IE9+, Chrome, Safari, Firefox+ :)
 
 ## Desejáveis
@@ -17,6 +23,20 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 - PWA/Service Workers
 - MySQL ou Postgres
 - Testes Automatizados
+- Elastic Search
+- Kubernetes
+- Docker
+- Elixir
+- GraphQL
+- Websockets
+- Ruby on Rails
+- Serveless
+- OOP e Desing Patterns
+- Python
+- NoSQL
+- ShellScript
+- MySQL ou Postgres
+
 
 ## O Desafio
 
