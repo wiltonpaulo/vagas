@@ -40,7 +40,7 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 
 ## O Desafio
 
-Criar um formulário responsivo simples para consulta de CEP em Ajax :)
+Criar um formulário responsivo simples para consulta de CEP em Ajax, usando o NodeJS do lado do serviço :)
 
 
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/fullstack/layout_final.gif)
