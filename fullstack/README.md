@@ -45,6 +45,32 @@ Criar um formulário responsivo simples para consulta de CEP em Ajax :)
 
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/fullstack/layout_final.gif)
 
+## Endpoint
+
+GET -> response no formato JSON
+
+`https://viacep.com.br/ws/{{CEP}}/json/`
+
+**Exemplo de request**
+
+`https://viacep.com.br/ws/04571010/json/`
+
+**Resposta do endpoint**
+
+```
+{
+ cep: "04571-010",
+ logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
+ complemento: "até 1405 - lado ímpar",
+ bairro: "Cidade Monções",
+ localidade: "São Paulo",
+ uf: "SP",
+ unidade: "",
+ ibge: "3550308",
+ gia: "1004"
+}
+```
+
 ## Instruções
 
 ### Server Side
@@ -75,32 +101,6 @@ Criar um formulário responsivo simples para consulta de CEP em Ajax :)
 
 - o input não pode ter mais que 8 caracteres
 - ao enviar um CEP com menos de 7 caracteres deve mostrar um alert de erro "Digite um CEP válido!"
-
-## Endpoint
-
-GET -> response no formato JSON
-
-`https://viacep.com.br/ws/{{CEP}}/json/`
-
-**Exemplo de request**
-
-`https://viacep.com.br/ws/04571010/json/`
-
-**Resposta do endpoint**
-
-```
-{
- cep: "04571-010",
- logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
- complemento: "até 1405 - lado ímpar",
- bairro: "Cidade Monções",
- localidade: "São Paulo",
- uf: "SP",
- unidade: "",
- ibge: "3550308",
- gia: "1004"
-}
-```
 
 
 ## Layout inicial
