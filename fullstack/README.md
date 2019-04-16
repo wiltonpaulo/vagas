@@ -51,7 +51,7 @@ Criar um formulário responsivo simples para consulta de CEP em Ajax :)
 
 - Criar um serviço em NodeJS para consumir o endpoint de consulta de CEP
 - Parsear a resposta, trazendo somente os campos *cep, uf, localidade e logradouro.*
-- Se o CEP for inválido o serviço deve retornar o erro`401` para o client
+- Se o CEP for inválido o serviço deve retornar o erro `401` para o client
 
 ### Client Side
 
