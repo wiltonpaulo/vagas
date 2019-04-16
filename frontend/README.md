@@ -47,6 +47,22 @@ GET -> response no formato JSON
 
 `https://viacep.com.br/ws/04571010/json/`
 
+**Resposta do endpoint**
+
+```
+{
+ cep: "04571-010",
+ logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
+ complemento: "até 1405 - lado ímpar",
+ bairro: "Cidade Monções",
+ localidade: "São Paulo",
+ uf: "SP",
+ unidade: "",
+ ibge: "3550308",
+ gia: "1004"
+}
+```
+
 ## Layout inicial
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/frontend/layout_tela-inicial.png)
 
