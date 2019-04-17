@@ -49,6 +49,7 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 
 [Desafio para Front-end](https://github.com/petlove/code-challenge/blob/master/frontend/README.md)
 
+[Desafio para Full-stack](https://github.com/petlove/code-challenge/blob/master/fullstack/README.md)
 
 [Desafio para Backend Ruby](https://github.com/petlove/code-challenge/blob/master/backend-ruby/README.md)
 
