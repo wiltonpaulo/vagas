@@ -85,7 +85,7 @@ GET -> response no formato JSON
 }
 ```
 
-- Se o CEP for inválido o serviço deve retornar o erro `401`
+- Se o CEP for inválido o serviço deve retornar o erro `406`
 
 ### Client Side
 
