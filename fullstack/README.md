@@ -99,6 +99,7 @@ GET -> response no formato JSON
 ## Validações
 
 - o input não pode ter mais que 8 caracteres
+- o input só pode aceitar números
 - ao enviar um CEP com menos de 7 caracteres deve mostrar um alert de erro "Digite um CEP válido!"
 
 
