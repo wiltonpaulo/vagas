@@ -118,7 +118,7 @@ GET -> response no formato JSON
 
 - Feedbacks visuais para o usuário (alertas, inputs...);
 - HTML semântico;
-- CSS bem estruturado de preferencia usando [BEM](http://getbem.com/);
+- CSS bem estruturado de preferência usando [BEM](http://getbem.com/);
 - Testes unitários e e2e, de preferência utilizando [Jest](https://jestjs.io/);
 - Código limpo e bem organizado;
 
