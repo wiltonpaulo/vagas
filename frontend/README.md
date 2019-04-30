@@ -1,6 +1,6 @@
-# Desafio Front-end
+# Desafio Front-end (Fullstack)
 
-Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boas práticas e habilidades em front-end.
+Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boas práticas e habilidades em front-end e back-end.
 
 ## Requisitos
 
@@ -10,33 +10,39 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 - Git
 - NodeJS
 - APIs / REST
+- Cloud (AWS ou Google Cloud)
+- Ecmascript 6+
+- CDN
+- Linux
+- Banco de Dados(MySQL ou Postgres)
+- Serverless
+- GraphQL
+- Docker
+- Testes Automatizados
+- PWA/Service Workers
+- Websockets
+- Python
+- ShellScript
+- Ruby on Rails
+- OOP e Desing Patterns
+- Cloud Flare
+- CI/CD
 - Suporte para IE9+, Chrome, Safari, Firefox+ :)
 
 ## Desejáveis
 - Projetos opensource
-- PWA/Service Workers
-- MySQL ou Postgres
-- Testes Automatizados
+- Elastic Search
+- Kubernetes
+- Elixir
+- NoSQL
+
 
 ## O Desafio
 
-Criar um formulário responsivo simples para consulta de CEP em Ajax :)
+Criar um formulário responsivo simples para consulta de CEP em Ajax, usando o NodeJS do lado do serviço :)
+
 
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/frontend/layout_final.gif)
-
-## Instruções
-
-O formulário deve seguir o layout sugerido e conter um input e um botão de submit
-
-Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço de consulta de CEP via Ajax, e imprimir o resultado na tela.
-
-Os resultados a serem exibidos em tela são: cep, uf, localidade, logradouro
-
-## Validações
-
-- o input não pode ter mais que 8 caracteres
-- o input só pode aceitar números
-- ao enviar um CEP com menos de 7 caracteres deve mostrar um alert de erro "Digite um CEP válido!"
 
 ## Endpoint
 
@@ -64,6 +70,39 @@ GET -> response no formato JSON
 }
 ```
 
+## Instruções
+
+### Server Side
+
+- Criar um serviço em NodeJS para consumir o endpoint de consulta de CEP
+- Parsear a resposta, trazendo somente os campos:
+```
+{
+ cep: "04571-010",
+ logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
+ localidade: "São Paulo",
+ uf: "SP",
+}
+```
+
+- Se o CEP for inválido o serviço deve retornar o erro `406`
+
+### Client Side
+
+- O formulário deve seguir o layout sugerido e conter um input e um botão de submit.
+
+- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço do NodeJS via *Ajax*, e imprimir o resultado na tela.
+
+- Os resultados a serem exibidos em tela são: cep, uf, localidade, logradouro.
+
+
+## Validações
+
+- o input não pode ter mais que 8 caracteres
+- o input só pode aceitar números
+- ao enviar um CEP com menos de 7 caracteres deve mostrar um alert de erro "Digite um CEP válido!"
+
+
 ## Layout inicial
 ![Petlove](https://github.com/petlove/code-challenge/blob/master/frontend/layout_tela-inicial.png)
 
@@ -73,7 +112,8 @@ GET -> response no formato JSON
 
 ## O que posso usar?
 
-Você pode usar qualquer framework JS que quiser. Se preferir, pode fazer usando js Vanilla!
+- Você pode usar qualquer framework JS que quiser.
+- Para o lado do cliente, gostamos do Vue JS e React! Se preferir, pode fazer usando Vanilla JS :)
 
 ## O que apreciamos
 
@@ -82,12 +122,6 @@ Você pode usar qualquer framework JS que quiser. Se preferir, pode fazer usando
 - CSS bem estruturado de preferência usando [BEM](http://getbem.com/);
 - Testes unitários e e2e, de preferência utilizando [Jest](https://jestjs.io/);
 - Código limpo e bem organizado;
-
-## Finalizando
-
-- Suba a sua proposta para o projeto que você criou no GitHub. Exemplo: https://github.com/seuNome/pet-code;
-- Envie-nos o link do seu projeto. Exemplo: https://github.com/seuNome/test-frontend.git
-- Aguarde o RH entrar em contato.
 
 ## Quem buscamos
 
