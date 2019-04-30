@@ -1,4 +1,4 @@
-# Desafio Full-stack
+# Desafio Front-end (Fullstack)
 
 Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boas práticas e habilidades em front-end e back-end.
 
