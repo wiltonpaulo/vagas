@@ -2,41 +2,6 @@
 
 Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boas práticas e habilidades em front-end e back-end.
 
-## Requisitos
-
-- HTML5/CSS3/SCSS
-- Gulp ou Webpack
-- JS (Vanilla, VueJs ou React)
-- Git
-- NodeJS
-- APIs / REST
-- Cloud (AWS ou Google Cloud)
-- Ecmascript 6+
-- CDN
-- Linux
-- Banco de Dados(MySQL ou Postgres)
-- Serverless
-- GraphQL
-- Docker
-- Testes Automatizados
-- PWA/Service Workers
-- Websockets
-- Python
-- ShellScript
-- Ruby on Rails
-- OOP e Desing Patterns
-- Cloud Flare
-- CI/CD
-- Suporte para IE9+, Chrome, Safari, Firefox+ :)
-
-## Desejáveis
-- Projetos opensource
-- Elastic Search
-- Kubernetes
-- Elixir
-- NoSQL
-
-
 ## O Desafio
 
 Criar um formulário responsivo simples para consulta de CEP em Ajax, usando o NodeJS do lado do serviço :)
@@ -82,8 +47,7 @@ GET -> response no formato JSON
  logradouro: "Avenida Engenheiro Luiz Carlos Berrini",
  localidade: "São Paulo",
  uf: "SP",
-}
-```
+}```
 
 - Se o CEP for inválido o serviço deve retornar o erro `406`
 
