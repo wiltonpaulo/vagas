@@ -28,9 +28,7 @@ Criar um formulário responsivo simples para consulta de CEP :)
 
 - O formulário deve seguir o layout sugerido e conter um input e um botão de submit.
 
-- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço do NodeJS utilizando uma chamada de requisição assíncrona, e imprimir o resultado na tela.
-
-- Os resultados a serem exibidos são: cep, uf, localidade, logradouro.
+- Ao digitar o CEP no input e clicar no botão "Buscar CEP", consultar o serviço utilizando uma chamada de requisição assíncrona, e imprimir o resultado na tela.
 
 ## Validações
 
