@@ -82,12 +82,15 @@ GET -> response no formato JSON
 - Você pode usar qualquer framework JS que quiser.
 - Para o lado do cliente, gostamos do Vue JS e React! Se preferir, pode fazer usando Vanilla JS :)
 
+## Testes
+- Testes unitários de preferência utilizando [Jest](https://jestjs.io/);
+- Testes e2e de preferência utilizando [Puppeteer](https://github.com/GoogleChrome/puppeteer/);
+
 ## O que apreciamos
 
 - Feedbacks visuais para o usuário (alertas, inputs...);
 - HTML semântico;
 - CSS bem estruturado de preferência usando [BEM](http://getbem.com/);
-- Testes unitários e e2e, de preferência utilizando [Jest](https://jestjs.io/);
 - Código limpo e bem organizado;
 
 ## Quem buscamos
