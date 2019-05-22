@@ -32,6 +32,7 @@ Criar um formulário responsivo simples para consulta de CEP :)
 
 ## Validações
 
+- o input deve ter máscara de CEP (Ex.: 00000-000)
 - o input não pode ter mais que 8 caracteres
 - o input só pode aceitar números
 - ao enviar um CEP com menos de 7 caracteres deve mostrar um alert de erro "Digite um CEP válido!"
