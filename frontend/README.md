@@ -86,6 +86,10 @@ GET -> response no formato JSON
 
 - Testes unitários e e2e de preferência utilizando [Jest](https://jestjs.io/) e [Puppeteer](https://github.com/GoogleChrome/puppeteer/);
 
+## Readme com instruções
+
+- Crie um Readme com as instruções de como executar seu projeto
+
 ## O que apreciamos
 
 - Feedbacks visuais para o usuário (alertas, inputs...);
