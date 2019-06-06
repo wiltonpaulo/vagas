@@ -74,6 +74,10 @@ GET -> response no formato JSON
 
 Você pode usar qualquer framework JS que quiser. Se preferir, pode fazer usando js Vanilla!
 
+## Readme com instruções
+
+- Crie um Readme com as instruções de como executar seu projeto
+
 ## O que apreciamos
 
 - Feedbacks visuais para o usuário (alertas, inputs...);
