@@ -50,3 +50,5 @@ Objetivo deste teste é avaliar seus conhecimentos em organização, estilo, boa
 [Desafio para Backend Ruby](https://github.com/petlove/code-challenge/blob/master/backend-ruby/README.md)
 
 [Desafio para Mobile](https://github.com/petlove/code-challenge/blob/master/mobile/README.md)
+
+[Desafio para Devops](https://github.com/petlove/code-challenge/blob/master/devops/README.md)
