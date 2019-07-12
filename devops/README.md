@@ -1,7 +1,7 @@
 # Desafio Petlove: Kubernetes
 
 ## Sobre o desafio:
-A aplicação que você vai trabalhar é uma projeto web em nodejs bem simples. E a sua missão é fazer a orquestração de containers com kubernetes para esse projeto. A ideia é testar sua habilidade em construir um cluster de aplicações usando Kubernetes que faz parte das tecnologias que utlizamos na Petlove.
+A aplicação que você vai trabalhar é uma projeto web em nodejs bem simples. E a sua missão é fazer a orquestração de containers com kubernetes para esse projeto. A ideia é testar sua habilidade em construir um cluster de aplicações usando Kubernetes, que faz parte da stack tecnológica da Petlove.
 
 ## Setup da aplicação
 Antes de prosseguir, você precisará criar a estrutura da aplicação. Para isso, crie um diretório para o projeto e dentro dele, construa a seguinte estrutura:
