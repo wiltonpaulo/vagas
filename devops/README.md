@@ -29,7 +29,7 @@ const PORT = 3001;
 app.listen(PORT);
 console.log(`Aplicação teste executando em http://localhost: ${PORT}`);
 
-let name = process.env.NOME_CANDIDATO || 'amigo';
+let name = process.env.NOME_CANDIDATO || 'petlover';
 app.get('/', (req, res) => {
   res.send(`Olá ${name}!`);
 });
@@ -75,7 +75,7 @@ Uma vez criada a aplicação executar os seguintes passos:
 - Utilizar Helm [HELM](https://helm.sh);
 - Dividir os recursos em _namespaces_;
 - Utilização de _health check_ na aplicação;
-- Fazer com que a aplicação exiba seu nome ao invés de **"Olá, amigo!"**;
+- Fazer com que a aplicação exiba seu nome ao invés de **"Olá, petlover!"**;
 
 ## Importante:
 
