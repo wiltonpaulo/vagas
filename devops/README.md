@@ -68,7 +68,8 @@ Uma vez criada a aplicação executar os seguintes passos:
 
 - Construir a imagem docker da aplicação;
 - Criar os manifestos de recursos kubernetes para rodar a aplicação (_deployments_, _services_, _ingresses_, etc);
-- Criar um _script_ de deploy fácil de usar;
+- Criar um _script_ de deploy fácil de usar, preferencialmente um único comando;
+- A fim de avaliar a simplicidade da solução, levar em conta que o seu teste será avaliado por um analista junior baseado num ambiente linux moderno(ubuntu/centos/fedora). É importante que qualquer instrução adicional ao comando de deploy seja especificada;
 - A aplicação deve responder à URL específicada configurada no projeto (no _ingress_)
 
 ## Diferenciais
@@ -81,7 +82,7 @@ Uma vez criada a aplicação executar os seguintes passos:
 
 * Pode utilizar o Minikube Docker for Mac/Windows/Linux para execução do desafio e realização de testes.
 
-* Não é necessário fazer _upload_ da imagem Docker para um registro, apenas construa a imagem localmente.
+* Fazer _upload_ da imagem Docker da aplicaçao para Dockerhub.
 
 * Ao finalizar, mande-nos por e-mail o link com o projeto, exemplo https://github.com/seuNome/test-kube-pet.git em seu repsiotório git para avaliarmos.
 
