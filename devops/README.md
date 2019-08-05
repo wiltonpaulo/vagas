@@ -82,7 +82,7 @@ Uma vez criada a aplicação executar os seguintes passos:
 
 * Pode utilizar o Minikube Docker for Mac/Windows/Linux para execução do desafio e realização de testes.
 
-* Fazer _upload_ da imagem Docker da aplicaçao para Dockerhub.
+* Fazer _upload_ da imagem Docker da aplicaçao para Dockerhub (public).
 
 * Ao finalizar, mande-nos por e-mail o link com o projeto, exemplo https://github.com/seuNome/test-kube-pet.git em seu repsiotório git para avaliarmos.
 
